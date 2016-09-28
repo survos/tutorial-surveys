@@ -1,0 +1,79 @@
+{
+    "questions": [
+        {
+            "code": "age_18_plus",
+            "type": "radio",
+            "survey": {},
+            "help": "",
+            "text": "Are you at least 18 years old?",
+            "score": "",
+            "hidden": false,
+            "choices": [
+                {
+                    "url": "",
+                    "text": "Yes",
+                    "score": "",
+                    "value": "yes"
+                },
+                {
+                    "url": "",
+                    "text": "No",
+                    "score": "",
+                    "value": "no"
+                }
+            ],
+            "default": "",
+            "required": true,
+            "subscale": "",
+            "condition": "",
+            "consensus": false,
+            "order_idx": 1,
+            "otherLabel": "",
+            "includeCondition": "",
+            "smsText": "Are you at least 18 years old? (1=Yes,2=No)"
+        },
+        {
+            "code": "q2",
+            "type": "radio",
+            "survey": {},
+            "help": "",
+            "text": "How much coffee do you drink per week?",
+            "score": "",
+            "hidden": false,
+            "choices": [
+                {
+                    "url": "",
+                    "text": "None",
+                    "score": "",
+                    "value": "none"
+                },
+                {
+                    "url": "",
+                    "text": "1-5 cups",
+                    "score": "",
+                    "value": "some"
+                },
+                {
+                    "url": "",
+                    "text": "6+",
+                    "score": "",
+                    "value": "daily"
+                }
+            ],
+            "default": "",
+            "required": true,
+            "subscale": "",
+            "condition": "",
+            "consensus": false,
+            "order_idx": 2,
+            "otherLabel": "",
+            "includeCondition": "",
+            "smsText": "How much coffee do you drink per week? (1=None,2=1-5 cups,3=6+)"
+        }
+    ],
+    "code": "coffee_drinkers",
+    "replacements": [],
+    "id": 27,
+    "showHelpImages": true,
+    "subscales": []
+}
